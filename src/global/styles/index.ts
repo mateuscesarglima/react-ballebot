@@ -10,6 +10,7 @@ export const GlobalStyles = createGlobalStyle`
    body{
       font-family: 'Sarala', sans-serif;
       background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%) ;
+      -webkit-font-smoothing: antialiased;
    }
 
 `;
