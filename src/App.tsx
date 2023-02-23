@@ -1,12 +1,13 @@
-import { GlobalStyles } from "./global/styles/styles";
 import { ThemeProvider } from "styled-components";
-import theme from "./global/themes/theme";
-import { Teste } from "./styles";
+import { GlobalStyles } from "./global/styles";
+import themes from "./global/themes";
+
+import Home from "./Pages/Home";
 
 function App(): JSX.Element {
   return (
-    <ThemeProvider theme={theme}>
-      <Teste>Ballebot</Teste>
+    <ThemeProvider theme={themes}>
+      <Home />
       <GlobalStyles />
     </ThemeProvider>
   );
