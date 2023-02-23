@@ -3,10 +3,9 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 32px 0;
-  border-bottom: 1px solid #fff2e7;
+  padding: 22px 0;
 `;
 export const Logo = styled.img``;
 export const Navigation = styled.div`
